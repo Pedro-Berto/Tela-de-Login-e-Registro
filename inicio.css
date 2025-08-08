@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, cyan, yellow);
+    
+}
+
+.login{
+    background-color: rgba(5, 1, 4, 0.8);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 53px;
+}
+
+.registro{
+    color: white;
+    position: relative;
+    left: 20px;
+}
+
+.white{
+    color: white;
+    position: relative;
+    left: 1px;
+    
+}
+
+.h1{
+    top: -20px;
+    left: -5px;
+    position: relative;
+    text-align: center;
+    color: white;  
+
+}
+
+.email input{
+border: none;
+background: transparent;
+outline: none;
+color: white;
+border-bottom: 1px solid rgb(146, 140, 146);
+font-size: 20px;
+    
+}
+
+.senha input{
+border: none;
+background: transparent;
+outline: none;
+color: white;
+border-bottom: 1px solid rgb(146, 140, 146);
+font-size: 20px;
+}
+
+
+.botao{
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    left: 40px;
+    padding: 20px 60px;
+    color: white;
+    background-color: rgb(23, 24, 24);
+    cursor: pointer;
+    transition: transform 800ms ease-in-out;
+}
+
+.botao:hover{
+    text-shadow: 0 0 5px #ffffff, 0 0 1px #e7e3e9, 0 0 2px #ffffff; ;
+    box-shadow: 0 0 5px #ffffff, 0 0 1px #e7e3e9, 0 0 2px #ffffff;
+    transform: scale(1.1);
+}
